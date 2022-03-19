@@ -1,0 +1,117 @@
+@import url
+(
+  "https://fonts.googleapis.com/css2? família=Roboto:ital,wght@1,300&display=swap"
+);
+
+body {
+  background: rgb(58, 15, 92);
+  background: linear-gradient(
+    90deg,
+    rgba(252, 176, 69, 1) 0%,
+    rgba(253, 29, 29, 1) 14%,
+    rgba(58, 15, 92, 1) 82%
+  );
+  font-family: "Roboto", sans-serif;
+  color: ;
+}
+
+.container {
+  background-color: #333439;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  color: #f1f1f1;
+  padding: 64px;
+}
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+.perfil {
+  display: flex;
+}
+.perfil-foto {
+  border-radius: 400px;
+  max-height: 160px;
+  border: 1px solid #b8b6e9;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.titulo {
+  margin-left: 16px;
+}
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #1c1c1c;
+  border-radius: 100px;
+  color: #f1f1f1;
+}
+
+.projetos {
+  color: #f6f6f6;
+
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(
+    90deg,
+    rgba(252, 176, 69, 1) 0%,
+    rgba(253, 29, 29, 1) 14%,
+    rgba(58, 15, 92, 1) 82%
+  );
+  margin-top: 32px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+  padding: 32px;
+}
+.projetos-tilulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 24px;
+}
+.projeto-item {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.claro {
+  background: rgb(0, 250, 243);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 250, 243, 1) 0%,
+    rgba(12, 26, 212, 1) 36%,
+    rgba(133, 4, 191, 1) 79%
+  );
+}
+.claro .container {
+  background: #f7f7f7;
+  color: #1c1c1c;
+}
+.claro .projetos {
+  background: rgb(0, 250, 243);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 250, 243, 1) 0%,
+    rgba(12, 26, 212, 1) 36%,
+    rgba(133, 4, 191, 1) 79%
+  );
+}
+.claro .tema button {
+  background: #ecf4ff;
+  border: 2px solid #0e1d2f;
+  box-sizing: border-box;
+  border-radius: 100px;
+  color: #0e1d2f;
+}
